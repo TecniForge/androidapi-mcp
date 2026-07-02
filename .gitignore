@@ -3,3 +3,4 @@ registry/
 dist/
 *.tgz
 .env
+.claude/
