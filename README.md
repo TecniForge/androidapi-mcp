@@ -200,6 +200,7 @@ Prefer a no-code experience? Install the **AndroidAPI.net Cowork Plugin** — a 
 
 - [AndroidAPI.net](https://androidapi.net) — Official website & dashboard
 - [AndroidAPI.net API Docs](https://androidapi.net/docs) — Full API reference
+- [Full Documentation](https://tecniforge.com/docs-category/androdiapi-net/androidapi-net-for-claude/) — Setup guides, tools reference & troubleshooting
 - [MCP Documentation](https://modelcontextprotocol.io) — Model Context Protocol spec
 - [TecniForge](https://tecniforge.com) — Built by TecniForge
 - [ahmad@tecniforge.com](mailto:ahmad@tecniforge.com)
