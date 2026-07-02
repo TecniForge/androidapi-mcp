@@ -1,6 +1,6 @@
 {
   "name": "androidapi-mcp",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "MCP connector for AndroidAPI.net — send SMS, WhatsApp, OTP, manage contacts & Android devices from Claude",
   "keywords": [
     "mcp",
