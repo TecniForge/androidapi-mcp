@@ -185,9 +185,21 @@ MIT — see [LICENSE](LICENSE)
 
 ---
 
+## Claude Cowork Plugin
+
+Prefer a no-code experience? Install the **AndroidAPI.net Cowork Plugin** — a ready-made set of skills for Claude Cowork that wraps this connector with natural language commands.
+
+- `/send-sms` · `/send-whatsapp` · `/send-otp` · `/manage-contacts` · `/sms-campaigns` · `/whatsapp-campaigns`
+
+**[Download Cowork Plugin →](https://github.com/TecniForge/androidapi-cowork-plugin/releases/latest)**  
+**[Plugin Repository →](https://github.com/TecniForge/androidapi-cowork-plugin)**
+
+---
+
 ## Links
 
 - [AndroidAPI.net](https://androidapi.net) — Official website & dashboard
 - [AndroidAPI.net API Docs](https://androidapi.net/docs) — Full API reference
 - [MCP Documentation](https://modelcontextprotocol.io) — Model Context Protocol spec
 - [TecniForge](https://tecniforge.com) — Built by TecniForge
+- [ahmad@tecniforge.com](mailto:ahmad@tecniforge.com)
