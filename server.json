@@ -1,0 +1,25 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.TecniForgeMaryam/androidapi-mcp",
+  "description": "Send SMS & WhatsApp, verify OTPs, manage contacts, and control Android devices via AndroidAPI.net.",
+  "version": "1.0.1",
+  "packages": [
+    {
+      "registryType": "npm",
+      "identifier": "androidapi-mcp",
+      "version": "1.0.1",
+      "transport": {
+        "type": "stdio"
+      },
+      "environmentVariables": [
+        {
+          "name": "ANDROIDAPI_SECRET",
+          "description": "Your API key from AndroidAPI.net → Tools → API Keys",
+          "isRequired": true,
+          "isSecret": true,
+          "format": "string"
+        }
+      ]
+    }
+  ]
+}

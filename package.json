@@ -1,0 +1,59 @@
+{
+  "name": "androidapi-mcp",
+  "version": "1.0.1",
+  "description": "MCP connector for AndroidAPI.net — send SMS, WhatsApp, OTP, manage contacts & Android devices from Claude",
+  "keywords": [
+    "mcp",
+    "claude",
+    "connector",
+    "androidapi",
+    "sms",
+    "whatsapp",
+    "otp",
+    "messaging",
+    "android",
+    "mcp-server"
+  ],
+  "homepage": "https://github.com/tecniforge/androidapi-mcp",
+  "bugs": {
+    "url": "https://github.com/tecniforge/androidapi-mcp/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tecniforge/androidapi-mcp.git"
+  },
+  "license": "MIT",
+  "mcpName": "io.github.TecniForgeMaryam/androidapi-mcp",
+  "author": {
+    "name": "TecniForge",
+    "email": "ahmad@tecniforge.org",
+    "url": "https://tecniforge.com"
+  },
+  "type": "module",
+  "main": "dist/index.js",
+  "bin": {
+    "androidapi-mcp": "dist/index.js"
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "ts-node --esm src/index.ts",
+    "prepare": "npm run build",
+    "lint": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.29.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "typescript": "^5.5.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
